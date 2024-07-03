@@ -10,11 +10,13 @@ public class Quiz7 {
 		System.out.println("1의자리" + sum);
 		//10의자리
 		num = num/10;
+		System.out.println("10의자리" + num);
+		System.out.println("10의자리" + num%10);
 		sum = sum + (num%10);
-		System.out.println("10의자리" + sum);
 		//100의자리
 		num = num/10;
 		sum = sum + num;
+		System.out.println("100의자리" + num);
 		System.out.println("100의자리" + sum);
 
 		System.out.println(sum);
